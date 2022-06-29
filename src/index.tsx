@@ -4,7 +4,6 @@ import { createRoot } from 'react-dom/client';
 import { Toaster } from 'react-hot-toast';
 
 /** providers */
-import ReactQueryProvider from '@/api/react-query/ReactQueryProvider';
 
 import App from '@/App';
 import * as serviceWorker from './serviceWorker';
@@ -13,10 +12,8 @@ import reportWebVitals from './reportWebVitals';
 
 const Index: FC<React.PropsWithChildren<unknown>> = ({ children }) => (
   <React.StrictMode>
-    <ReactQueryProvider>
-      {children}
-      <Toaster />
-    </ReactQueryProvider>
+    {children}
+    <Toaster />
   </React.StrictMode>
 );
 

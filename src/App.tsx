@@ -11,28 +11,9 @@ export default function App(): JSX.Element {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta name="theme-color" content="#000000" />
         <meta name="description" content="React Website" />
-        <title>React Typescript Template</title>
+        <title>React Testing Recipe</title>
       </Helmet>
-      <figure className="flex h-screen items-center">
-        <img
-          src="https://picsum.photos/id/1005/400/250"
-          width="400"
-          height="250"
-          alt=""
-        />
-      </figure>
-      <div className="card-body justify-center">
-        <h2 className="card-title">React Typescript Template</h2>
-        <p>I am Jerry. A React Developer.</p>
-        <div className="card-actions">
-          <button className="btn btn-primary" type="button">
-            Get Started
-          </button>
-          <button className="btn btn-ghost" type="button">
-            More info
-          </button>
-        </div>
-      </div>
+
       <section>
         <Playground />
       </section>
